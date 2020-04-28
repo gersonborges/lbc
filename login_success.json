@@ -1,0 +1,101 @@
+{
+    "status": "success",
+    "usuario": {
+        "id": "1",
+        "login": "gerson",
+        "nome": "Gerson Borges",
+        "email": "contato@gersonborges.com.br"
+    },
+    "postos": [
+        {
+            "id": "520101",
+            "nome": "Posto ABC",
+            "endereco": "Av. Nossa Sra. do Carmo, 756",
+            "cidade": "Belo Horizonte",
+            "uf": "MG",
+            "cep": "30310300",
+            "combustiveis" : [
+                {
+                        "id" : "1",
+                        "sigla" : "GC",
+                        "descricao" : "GASOLINA COMUM",
+                        "preco_padrao" : "2.999",
+                        "bicos" : [
+                            {
+                                "id" : "1",
+                                "numero" : "1",
+                                "preco" : "2.999"
+                            },
+                            {
+                                "id" : "3",
+                                "numero" : "3",
+                                "preco" : "3.199"
+                            }
+                        ]
+                },
+                {
+                    "id" : "2",
+                    "sigla" : "GA",
+                    "descricao" : "GASOLINA ADITIVADA",
+                    "bicos" : [
+                        {
+                            "id" : "2",
+                            "numero" : "1",
+                            "preco" : "2.899"
+                        },
+                        {
+                            "id" : "4",
+                            "numero" : "3",
+                            "preco" : "3.099"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "520301",
+            "nome": "Posto XYZ",
+            "endereco": "Av. Uruguai, 756",
+            "cidade": "Belo Horizonte",
+            "uf": "MG",
+            "cep": "30310300",
+            "combustiveis" : [
+                {
+                        "id" : "1",
+                        "sigla" : "DC",
+                        "descricao" : "DIESEL COMUM",
+                        "preco_padrao" : "2.799",
+                        "bicos" : [
+                            {
+                                "id" : "122",
+                                "numero" : "12",
+                                "preco" : "2.799"
+                            },
+                            {
+                                "id" : "312",
+                                "numero" : "14",
+                                "preco" : "3.299"
+                            }
+                        ]
+                },
+                {
+                    "id" : "9",
+                    "sigla" : "GNV",
+                    "descricao" : "GNV GAS NATURAL",
+                    "bicos" : [
+                        {
+                            "id" : "32",
+                            "numero" : "9",
+                            "preco" : "1.899"
+                        },
+                        {
+                            "id" : "31",
+                            "numero" : "10",
+                            "preco" : "2.099"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
